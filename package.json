@@ -1,0 +1,25 @@
+{
+  "name": "pursuit-core-web-middleware-lab",
+  "version": "1.0.0",
+  "description": "# Middleware Exercises",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MikePursuit/Pursuit-Core-Web-Middleware-Lab.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MikePursuit/Pursuit-Core-Web-Middleware-Lab/issues"
+  },
+  "homepage": "https://github.com/MikePursuit/Pursuit-Core-Web-Middleware-Lab#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "fetch": "^1.1.0",
+    "node-fetch": "^2.6.0"
+  }
+}

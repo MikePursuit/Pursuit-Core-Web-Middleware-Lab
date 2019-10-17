@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Middleware Lab</title>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Middleware Lab</h1>
+    <hr>
+    <div>
+        <h2>Animals</h2>
+        <form id='animal'>
+            <input type="text" required>
+            <button>Submit</button>
+        </form>
+        <ul></ul>
+    </div>
+    <hr>
+    <div>
+        <h2>Random Number Picker</h2>
+        <form id='random'>
+            <input type="number" required>
+            <input type="number" required>
+            <button>Submit</button>
+        </form>
+        <ul></ul>
+    </div>
+    <hr>
+    <div>
+        <h2>Queue Manager</h2>
+        <form id='queue' onsubmit="event.preventDefault();">
+            <input type="text">
+            <button id="enqueue" value="enqueue">Enqueue</button>
+            <button id="peek" value="peek">Peek</button>
+            <button id="dequeue" value="dequeue">Dequeue</button>
+        </form>
+        <ul></ul>
+    </div>
+    <hr>
+</body>
+</html>
